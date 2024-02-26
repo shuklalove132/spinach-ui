@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 1920px) {
+    .navBarContainer{
+    background-color: #000000;
+    height: 132px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #333333;
+    z-index: 100;
+
+    }
+    .leftLogoGroup{
+        width: 313.48px;
+        height: 100px;
+        top: 16px;
+        left: 80px;
+        gap: 24px;
+        position: absolute;
+        display: flex;
+    }
+    .leftLogoGroupHamburgerDiv{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+    .leftLogoGroupHamburger{
+        height: 48px;
+        width: 48px;
+    }
+  
+    .leftLogoGroupLogoImage{
+        width: 241.48px;
+height: 100px;
+object-fit: contain;
+
+    }
+    .leftLogoGroupOnlyLogoImage{
+        display: none;
+    }
+    .centerOptionsNavbar{
+        width: 779px;
+height: 56px;
+top: 38px;
+/* left: 570px; */
+padding: 4px;
+border-radius: 100px;
+gap: 1px;
+position: absolute;
+background-color: #1A1A1E;
+display: flex;
+    }
+    .navbarMenuItemDiv{
+        width: 192px;
+        height: 48px;
+        padding: 11px 32px 11px 32px;
+        border-radius: 100px;
+        gap: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .navbarMenuItemDivFocused{
+        width: 192px;
+height: 48px;
+padding: 11px 32px 11px 32px;
+border-radius: 100px;
+gap: 8px;
+background-color: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+    .navBarMenuItemFocused{
+        width: 96px;
+height: 28px;
+
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+    .navbarMenuItemDropdownIcon{
+        color: #FFFFFF;
+        width: 22px;
+        height: 35px;
+        padding: 5px 0px 1px 0px;
+        font-size: 25px;
+    }
+    .navBarMenuItem{
+        width: 109px;
+height: 28px;
+color: white;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+    .rightNavbarButton{
+        width:145px;
+height: 56px;
+top: 38px;
+right: 80px;
+padding: 10px 32px 10px 32px;
+border-radius: 100px;
+border: 1px solid #FFFFFF;
+gap: 8px;
+
+color: #FFFFFF;
+background-color: #000000;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+}
+@media (max-width: 1440px) {
+    .navBarContainer{
+   height: 96px;
+    }
+    .leftLogoGroup{
+        width: 239.03px;
+        height: 76px;
+        top: 10px;
+        left: 60px;
+        gap: 18.03px;
+        position: absolute;
+        display: flex;
+    }
+ 
+    .leftLogoGroupHamburger{
+        height: 40px;
+        width: 40px;
+    }
+  .leftLogoGroupLogoImageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .leftLogoGroupLogoImage{
+        width: 154.71px;
+height: 25.36px;
+top: 24.8px;
+left: 13.16px;
+
+
+
+
+    }
+    .leftLogoGroupOnlyLogoImage{
+        display: none;
+    }
+    .centerOptionsNavbar{
+        width: 608px;
+        height: 56px;
+        top: 20px;
+  padding: 4px;
+  }
+    .navbarMenuItemDiv{
+        width: 150px;
+
+      padding: 0px;
+        border-radius: 100px;
+        gap: 8px;
+  display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .navbarMenuItemDivFocused{
+        width: 150px;
+        height: 48px;
+      padding: 0px;;
+
+        gap: 8px;
+
+    }
+    .navBarMenuItemFocused{
+        width: 108px;
+        height: 28px;
+ }
+
+    .navBarMenuItem{
+        width: 108px;
+height: 28px;
+
+color: white;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+    .rightNavbarButton{
+        width: 145px;
+        height: 56px;
+        top: 20px;
+     right: 80px;
+        padding: 10px 32px 10px 32px;
+       
+border-radius: 100px;
+border: 1px solid #FFFFFF;
+gap: 8px;
+
+color: #FFFFFF;
+background-color: #000000;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+}
+@media (max-width: 1024px) {
+    .navBarContainer{
+    background-color: #000000;
+    height: 96px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .leftLogoGroup{
+        width: 239.03px;
+        height: 76px;
+        top: 10px;
+        left: 60px;
+        gap: 18.03px;
+        
+        position: absolute;
+        display: flex;
+    }
+    .leftLogoGroupHamburgerDiv{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        position: relative;
+    }
+    .leftLogoGroupHamburger{
+        width: 36px;
+        height: 36px;
+        top: 22px;
+        left: 40px;
+        position: absolute;
+    }
+  
+    .leftLogoGroupLogoImage{
+        width: 154.71px;
+height: 25.36px;
+top: 24.8px;
+left: 13.16px;
+display: none;
+
+object-fit: contain;
+
+    }
+    .leftLogoGroupOnlyLogoImage{
+        width: 23.57px;
+        height: 33px;
+        top: 25px;
+        left: 92px;
+        position: absolute;
+        object-fit: contain;
+        display: block;
+    }
+    .centerOptionsNavbar{
+     display: none;
+  }
+    .navbarMenuItemDi{
+        height: 48px;
+ }
+ 
+    .rightNavbarButton{
+        width: 145px;
+        height: 48px;
+        top: 20px;
+     right: 80px;
+        padding: 10px 32px 10px 32px;
+       
+border-radius: 100px;
+border: 1px solid #FFFFFF;
+gap: 8px;
+
+color: #FFFFFF;
+background-color: #000000;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+}
+@media (max-width: 744px) {
+    .navBarContainer{
+    background-color: #000000;
+    height: 96px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .leftLogoGroup{
+        width: 239.03px;
+        height: 76px;
+        top: 10px;
+        left: 60px;
+        gap: 18.03px;
+        
+        position: absolute;
+        display: flex;
+    }
+    .leftLogoGroupHamburgerDiv{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        position: relative;
+    }
+    .leftLogoGroupHamburger{
+        width: 36px;
+        height: 36px;
+        top: 20px;
+        left: 40px;
+        position: absolute;
+    }
+  
+    .leftLogoGroupLogoImage{
+        width: 154.71px;
+height: 25.36px;
+top: 24.8px;
+left: 13.16px;
+display: none;
+
+object-fit: contain;
+
+    }
+    .leftLogoGroupOnlyLogoImage{
+        width: 23.57px;
+        height: 33px;
+        top: 23px;
+        left: 92px;
+        position: absolute;
+        object-fit: contain;
+        display: block;
+    }
+    .centerOptionsNavbar{
+display: none; }
+    .navbarMenuItemDiv{
+        width: 150px;
+        height: 48px;
+      padding: 0px;
+        border-radius: 100px;
+        gap: 8px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+ 
+ 
+ 
+
+    .rightNavbarButton{
+        width: 145px;
+        height: 48px;
+        top: 16px;
+     right: 80px;
+        padding: 10px 32px 10px 32px;
+       
+border-radius: 100px;
+border: 1px solid #FFFFFF;
+gap: 8px;
+
+color: #FFFFFF;
+background-color: #000000;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+}
+  @media (max-width: 390px) {
+    .navBarContainer{
+    height: 76px;
+
+    }
+.rightNavbarButton{
+    display: none;
+}
+/* .leftLogoGroupHamburger{
+    width: 36px;
+height: 36px;
+top: 20px;
+right: 30px;
+position: absolute;
+} */
+.leftLogoGroup{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    top: 0;
+    left: 0;
+}
+.leftLogoGroupOnlyLogoImage{
+    width: 24px;
+height: 32px;
+top: 22px;
+left: 24px;
+
+}
+.leftLogoGroupHamburger{
+    width: 36px;
+height: 36px;
+position: static;
+    margin-right: 30px;
+
+
+}
+    
+  }

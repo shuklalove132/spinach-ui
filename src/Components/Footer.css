@@ -1,0 +1,119 @@
+.FooterContainer{
+        height: 481px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+}
+.FooterContainerUpper{
+
+height: 48px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+list-style-type: disc;
+color: #FFFFFF;
+
+}
+.footerSocials{
+padding: 5px;
+width: 134px;
+height: 48px;
+color: #FFFFFF;
+
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.05em;
+text-align: left;
+
+}
+.FooterContainerLower{
+    width: 100%;
+    height: 70%;
+    display: flex;
+ justify-content: center;
+    
+}
+.FooterContainerLowerLeft{
+    width: 60%;
+    height: 100%;
+    display: flex;
+padding-top: 40px;
+
+}
+.FooterContainerLowerLeftCorner{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+
+}
+.FooterLogo{
+    width: 338px;
+height: 140px;
+top: 206px;
+left: 138px;
+padding: 45.69px 24.5px 47.59px 24.59px;
+
+}
+.FooterContainerLowerRight{
+    width: 17%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.comapnyAddress{
+    width: 314px;
+height: 67px;
+top: 339px;
+left: 162px;
+
+font-size: 20px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.FooterContainerLowerCenter{
+    width: 50%;
+    display: flex;
+    height: 100%;
+
+}
+
+.FooterContainerLowerCenterLeft{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.FooterContainerLowerCenterRight{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.footerItems{
+    width: 175px;
+height: 32px;
+top: 246px;
+left: 678px;
+margin: 20px;
+font-size: 20px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
