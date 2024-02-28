@@ -30,7 +30,7 @@ function App() {
      <BlackSliderComponent/>
      <BlueComponent/>
      <BlackInfoComponent/>
-     <Footer/>
+    <Footer/>
       </div>
     
   );

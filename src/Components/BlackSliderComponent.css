@@ -47,3 +47,21 @@ color: #FFFFFF;
   .otherImages {
     width: 25%;
   }
+
+  @media (max-width:1024px){
+    .BlackSliderContainerHeading{
+        font-size: 48px;
+    }
+  }
+  @media (max-width:390px){
+    .BlackSliderImagesContainer{
+        height: 440px;
+        gap: 10px;
+    }
+    .secondImage{
+        width: 90%;
+    }
+    .otherImages{
+        width: 2%;
+    }
+  }

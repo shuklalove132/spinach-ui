@@ -14,7 +14,7 @@ flex-direction: column;
   .leftVerticalLine {
     position: absolute;
     top: 0;
-    left: 137px; /* Adjust the left position as needed */
+    left: 5%; /* Adjust the left position as needed */
     width: 1px; /* Adjust the width of the line */
     height: 100%; /* Adjust the height of the line */
     background-color: #333333; /* Adjust the color of the line */
@@ -24,7 +24,7 @@ flex-direction: column;
   .rightVerticalLine {
     position: absolute;
     top: 0;
-    right: 137px; /* Adjust the left position as needed */
+    right: 5%; /* Adjust the left position as needed */
     width: 1px; /* Adjust the width of the line */
     height: 100%; /* Adjust the height of the line */
     background-color: #333333; /* Adjust the color of the line */
@@ -47,6 +47,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
    
   }
   .heroSectionUpperContent{
@@ -56,6 +57,8 @@ flex-direction: column;
     flex-direction: column;
     display: flex;
     gap: 40px;
+
+
   }
   .heroSectionUpperContentHeading{
 font-size: 74px;
@@ -84,6 +87,12 @@ color: #FFFFFF;
 }
 
 @media (max-width: 1440px){
+  .heroSection{
+    max-height: 957px;
+  }
+  .designSysystem{
+    height: 7200px;
+  }
 .heroSectionUpper{
   height: 356px;
 }
@@ -101,8 +110,21 @@ color: #FFFFFF;
   .heroSectionUpperContentLine{
     font-size: 20px;
   }
+  .leftVerticalLine {
+
+    left: 5%; /* Adjust the left position as needed */
+
+  }
+  .rightVerticalLine {
+
+    right: 5%; /* Adjust the left position as needed */
+   
+  }
 }
 @media (max-width: 1024px){
+  .heroSection{
+    max-height: 616px;
+  }
   .heroSectionUpper{
     height: 268px;
   }
@@ -111,6 +133,15 @@ color: #FFFFFF;
     height: 140px;
     gap: 24px;
     
+  }
+  .leftVerticalLine {
+
+   display: none; /* Adjust the left position as needed */
+
+  }
+  .rightVerticalLine {
+display: none;
+   
   }
   .heroSectionLower{
     height: 348px;
@@ -179,7 +210,7 @@ color: #FFFFFF;
   .heroSectionUpperContentHeading{
     font-size: 36px;
     text-align: left;
-    line-height: 28px;
+    line-height: 40px;
 
   }
   .heroSectionUpperContentLine{
@@ -191,4 +222,19 @@ color: #FFFFFF;
   
   }
 }
+}
+
+
+@media (max-width:744px){
+  .heroSection{
+    height: 628px;
+  }
+  
+}
+@media (max-width:390px){
+  .heroSection{
+    max-height: 821px;
+    height: 820px;
+  }
+  
 }

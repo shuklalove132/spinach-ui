@@ -73,28 +73,29 @@ const WhiteComonent = () => {
         </div>
       </div>
       <div className="whiteComponentSlider">
-        <div className="whiteComponentSliderContainer">
-          {sliderImages.map((item, key) => {
-            // Check if it's the first image
-            const isFirstChild = key === 0;
-
-            return (
-              <div
-                key={item.key}
-                className={`sliderImageContainer ${
-                  isFirstChild ? "firstImage" : "otherImages"
-                }`}
-              >
-                <img src={`${item.imageUrl}`} className="sliderImage" />
-              </div>
-            );
-          })}
-          <div className="sliderArrowContainer">
-            <MdArrowBack className="arrows" />
-            <MdArrowForward className="arrows" />
-          </div>
+      <div className="whiteComponentSliderContainer">
+        {sliderImages.slice(0, window.innerWidth >= 1024 ? 3 : window.innerWidth >= 744 ? 3 : 2).map((item, key) => {
+          // Check if it's the first image
+          const isFirstChild = key === 0;
+    
+          return (
+            <div
+              key={item.key}
+              className={`sliderImageContainer ${
+                isFirstChild ? "firstImage" : "otherImages"
+              }`}
+            >
+              <img src={`${item.imageUrl}`} className="sliderImage" alt={`Slider ${key + 1}`} />
+            </div>
+          );
+        })}
+        <div className="sliderArrowContainer">
+          <MdArrowBack className="arrows" />
+          <MdArrowForward className="arrows" />
         </div>
       </div>
+    </div>
+    
       <div className="whiteComponentLower">
         <div className="whiteComponentInnerDiv">
           <div className="whiteComponentIneerDivUpper">
